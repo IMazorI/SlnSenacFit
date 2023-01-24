@@ -1,0 +1,27 @@
+--create table Senacfit(
+--idCliente int identity(1,1) primary key,
+--nomeCliente varchar(20) not null,
+--senhaCliente varchar(20) not null
+--);
+--======================================================================================================
+--create procedure pi_Senacfit
+--(
+--@nomeCliente varchar(20),
+--@senhaCliente varchar(20)
+--)
+--as
+--insert into Senacfit(nomeCliente, senhaCliente)
+--values(@nomeCliente, @senhaCliente)
+--======================================================================================================
+--Create procedure ps_Login    
+--(
+--@nomeCliente varchar(20),
+--@senhaCliente varchar(20)
+--)
+--as
+--begin
+--  select * from Senacfit
+--  where nomeCliente = @nomeCliente and senhaCliente = @senhaCliente
+--end
+
+select * from Senacfit
